@@ -12,14 +12,14 @@ from zeep import Client, helpers
 from zeep.exceptions import Fault
 
 # ---------- CONSTANTS (replace or externalize for security) ----------
-CDMURL       = "http://server17480.contentdm.oclc.org"
+CDMURL       = "http://server17480.contentdm.oclc.org:8888"
 CDMUSERNAME  = "SarahLong"
 CDMPASSWORD  = "ep9riseSkinwalker"
 CDMLICENSE   = "R7WWM-LE5RB-HPYRT-RZJ53"
 CDMALIAS     = "/leirner"             # collection alias
 CDMCVFIELD   = "rights"               # controlled‑vocabulary field
 # WSDL endpoint; adjust if your server’s path differs
-WSDL_URL = f"{CDMURL}/cgi-bin/catcher/catcher.dll?WSDL"
+WSDL_URL = f"https://worldcat.org/webservices/contentdm/catcher/6.0/CatcherService.wsdl"
 # ---------------------------------------------------------------------
 
 def main() -> None:
