@@ -1,0 +1,16 @@
+[
+  {
+    "dmrecord": "14",
+    "title": "This has changed",
+    "subjec": "time and space",
+    "rights" : "test content 1",
+    "more" : "[let's have a look!](https://librariesarchives.mfah.org/digital/collection/myfirst)"
+  },
+  {
+    "dmrecord": "290",
+    "title": "What if this worked?",
+    "subjec": "Animals; Animal behavior",
+    "rights" : "test content 1",
+    "more" : "[let's have a look!](https://librariesarchives.mfah.org/digital/collection/myfirst);[It's so simple](https://librariesarchives.mfah.org/digital/collection/myfirst)"
+  }
+]
