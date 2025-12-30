@@ -102,6 +102,8 @@ Add/delete/edit calls require passing XML or JSON files to CONTENTdm-Catcher for
 
 #### JSON
 
+--all values must be entered as strings SEE dmrecord
+
 ```
 [
   {
