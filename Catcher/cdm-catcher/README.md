@@ -6,6 +6,10 @@ CONTENTdm-Catcher allows all primary functions of the Catcher service, including
 
 ## Use
 
+Open New Terminal in VSCode
+venv\Scripts\activate
+proceed with chosen operation
+
 ### Install
 Run `python -m pip install -r requirements.txt` from the project folder to install dependencies.
 
